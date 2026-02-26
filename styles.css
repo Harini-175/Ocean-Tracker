@@ -1,0 +1,91 @@
+/* General body style */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #06141f;
+  color: #fff;
+}
+
+/* Navbar style */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #0b2239;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffcc00;
+}
+
+/* Header style */
+header {
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #00ffff;
+}
+
+/* Container for content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Ship card style */
+.ship-card {
+  background: #0f2a44;
+  border: 1px solid #00ffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ship-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.ship-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #00ffff;
+}
+
+.ship-card p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #0b2239;
+  color: #00ffff;
+  font-size: 0.9rem;
+}
